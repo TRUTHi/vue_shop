@@ -35,3 +35,11 @@ body,
     visibility: hidden;
     margin-right: 30px;
 }
+
+.el-checkbox__input {
+    cursor: pointer;
+    outline: 0;
+    line-height: 1;
+    vertical-align: middle;
+    visibility: hidden;
+}
