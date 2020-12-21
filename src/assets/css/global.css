@@ -2,10 +2,10 @@
 html,
 body,
 #app {
-    widows : 100%;
-    height : 100%;
-    margin : 0;
-    padding: 0;
+    widows   : 100%;
+    height   : 100%;
+    margin   : 0;
+    padding  : 0;
     min-width: 1366px;
 }
 
@@ -30,16 +30,29 @@ body,
 }
 
 .el-radio {
-    color: #606266;
-    cursor: pointer;
-    visibility: hidden;
+    color       : #606266;
+    cursor      : pointer;
+    visibility  : hidden;
     margin-right: 30px;
 }
 
-.el-checkbox__input {
-    cursor: pointer;
-    outline: 0;
-    line-height: 1;
+/* .el-checkbox__input {
+    cursor        : pointer;
+    outline       : 0;
+    line-height   : 1;
     vertical-align: middle;
-    visibility: hidden;
+    visibility    : hidden;
+} */
+
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size  : 14px;
+    line-height: 38px;
+}
+
+.ql-editor {
+    min-height: 300px;
 }
